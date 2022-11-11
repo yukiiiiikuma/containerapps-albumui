@@ -3,7 +3,9 @@ env:
 name: Trigger auto deployment
 on:
   # 手動実行用トリガー
-  workflow_dispatch:      
+  workflow_dispatch:
+env:
+  CONTAINER_REGISTRY: kumamatsuzirkihric2lja.azurecr.io
 jobs:
   build:
     runs-on: ubuntu-22.04
