@@ -1,5 +1,3 @@
-env:
-  CONTAINER_REGISTRY: kumamatsuzirkihric2lja.azurecr.io
 name: Trigger auto deployment
 on:
   # 手動実行用トリガー
